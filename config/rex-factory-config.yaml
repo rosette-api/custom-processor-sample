@@ -1,0 +1,7 @@
+rootDirectory: ${rex-root}
+customProcessors:
+    - personContextAnnotator
+    - boundaryAdjustAnnotator
+    - metadataAnnotator
+customProcessorClasses:
+    - sample.SampleCustomProcessor

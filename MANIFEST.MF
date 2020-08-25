@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: rex-sample-custom-processor
+Bundle-SymbolicName: com.basistech.rex.osgi.rex-sample-custom-processor
+Bundle-Version: 1.0.0
+Fragment-Host: rex-osgi
