@@ -103,7 +103,7 @@ Notice that the entity type is now correct as PERSON.
 volumes:
   - rosette-roots-vol:/rosette/server/roots:ro
   - ${ROSAPI_LICENSE_PATH}:/rosette/server/launcher/config/rosapi/rosette-license.xml:ro
-  - ${CP_SAMPLE}/config/rex-factory-config.yaml:/rosette/server/launcher/config/rosapi/rex-factory-config.yaml
+  - ${CP_SAMPLE}/config/rex-factory-config.yaml:/rosette/server/launcher/config/rosapi/rex-factory-config.yaml:ro
   - ${CP_SAMPLE}/target/custom-processor-sample-1.0.jar:/rosette/server/launcher/bundles/custom-processor-sample-1.0.jar:ro
 ```
 
