@@ -3,7 +3,7 @@
 The Rosette Entity Extractor supports custom processors that allow you to preprocess text at the pre-extraction phase or modify the output at the pre-redaction phase. This sample will show how a custom processor can be used to correct an entity type.
 
 Requirements:
-- Rosette Enterprise 1.17.0
+- Rosette Enterprise 1.17.1
 - Rosette Enterprise license for Entity Extraction and English
 - [OPTIONAL] If you start Rosette Server via docker-compose, Docker must be installed and running on your machine
 
